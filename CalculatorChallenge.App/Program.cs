@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using CalculatorChallenge.App.Implementation;
+﻿using CalculatorChallenge.App.Implementation;
 using CalculatorChallenge.App.Interface;
 using Microsoft.Extensions.DependencyInjection;
 
