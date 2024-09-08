@@ -9,10 +9,10 @@ var serviceProvider = new ServiceCollection()
 
 var calculator = serviceProvider.GetService<ICalculator>();
 Console.WriteLine("Enter numbers: ");
-string input = Console.ReadLine();
+var input = Console.ReadLine();
 try
 {
-    int result = calculator.Add(input);
+    var result = calculator.Add(input);
     Console.WriteLine($"Result: {result}");
 }
 catch (ArgumentException ex)
