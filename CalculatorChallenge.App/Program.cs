@@ -11,7 +11,7 @@ Console.WriteLine("Enter numbers: ");
 var input = Console.ReadLine();
 try
 {
-    var result = calculator.Add(input);
+    var result = calculator.AddUpToTwoNumbers(input);
     Console.WriteLine($"Result: {result}");
 }
 catch (ArgumentException ex)
